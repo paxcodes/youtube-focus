@@ -8,8 +8,8 @@ window.addEventListener('load', function () {
         console.log("I am the king");
         document.getElementById('primary').style.display = "flex";
         console.log(document.querySelector('#secondary.style-scope.ytd-watch-flexy'));
-        document.querySelector('#secondary.style-scope.ytd-watch-flexy').style.display = "none";
-        document.querySelector("#comments").style.display = "none";
+        document.querySelector('#secondary.style-scope.ytd-watch-flexy').style.visibility = "hidden";
+        document.querySelector("#comments").style.visibility = "hidden";
     } else {
         document.querySelector("a[title=Trending]").style.display = "none";
         document.querySelector("a[title=Home]").style.display = "none";
@@ -26,8 +26,8 @@ window.addEventListener("yt-navigate-start", function () {
         console.log("I am the king");
         document.getElementById('primary').style.display = "flex";
         console.log(document.querySelector('#secondary.style-scope.ytd-watch-flexy'));
-        document.querySelector('#secondary.style-scope.ytd-watch-flexy').style.display = "none";
-        document.querySelector("#comments").style.display = "none";
+        document.querySelector('#secondary.style-scope.ytd-watch-flexy').style.visibility = "hidden";
+        document.querySelector("#comments").style.visibility = "hidden";
     } else {
         document.querySelector("a[title=Trending]").style.display = "none";
         document.querySelector("a[title=Home]").style.display = "none";
